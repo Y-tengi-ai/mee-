@@ -1,0 +1,6 @@
+import Navbar from "@/components/Navbar"; import Hero from "@/components/Hero"; import About from "@/components/About";
+import Expertise from "@/components/Expertise"; import Projects from "@/components/Projects"; import Automation from "@/components/Automation";
+import Research from "@/components/Research"; import Experience from "@/components/Experience"; import Contact from "@/components/Contact"; import Footer from "@/components/Footer";
+export default function Page() {
+  return <><Navbar /><main><Hero /><About /><Expertise /><Projects /><Automation /><Research /><Experience /><Contact /></main><Footer /></>;
+}
